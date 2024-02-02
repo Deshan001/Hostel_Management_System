@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1157.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelmanagementsystem.controller.HomeFormController">
+   <children>
+      <ImageView fitHeight="750.0" fitWidth="1157.0" layoutX="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/homeback.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="39.0" layoutY="13.0" prefHeight="58.0" prefWidth="561.0" text="Welcome To YOU'R HOSTEL ,">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffb0" height="200.0" layoutX="44.0" layoutY="107.0" opacity="0.35" stroke="BLACK" strokeType="INSIDE" width="435.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1f4f45e" height="200.0" layoutX="44.0" layoutY="393.0" opacity="0.57" stroke="BLACK" strokeType="INSIDE" width="435.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbfbfb87" height="200.0" layoutX="588.0" layoutY="107.0" opacity="0.51" stroke="BLACK" strokeType="INSIDE" width="435.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaededb8" height="200.0" layoutX="600.0" layoutY="402.0" opacity="0.69" stroke="BLACK" strokeType="INSIDE" width="416.0" />
+      <Label alignment="CENTER" layoutX="135.0" layoutY="307.0" prefHeight="58.0" prefWidth="255.0" text="AC / FOOD">
+         <font>
+            <Font name="Lucida Bright Demibold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="685.0" layoutY="307.0" prefHeight="58.0" prefWidth="214.0" text="AC ">
+         <font>
+            <Font name="Lucida Bright Demibold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="106.0" layoutY="593.0" prefHeight="58.0" prefWidth="274.0" text="NON AC / FOOD">
+         <font>
+            <Font name="Lucida Bright Demibold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="649.0" layoutY="602.0" prefHeight="44.0" prefWidth="264.0" text="NON AC">
+         <font>
+            <Font name="Lucida Bright Demibold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl1" layoutX="348.0" layoutY="320.0" opacity="0.0" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: white;" />
+      <Label fx:id="lbl2" layoutX="842.0" layoutY="320.0" opacity="0.0" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: white;" />
+      <Label fx:id="lbl3" layoutX="348.0" layoutY="605.0" opacity="0.0" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: white;" />
+      <Label fx:id="lbl4" layoutX="856.0" layoutY="608.0" opacity="0.0" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: white;" />
+      <ImageView fitHeight="200.0" fitWidth="435.0" layoutX="44.0" layoutY="107.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../assets/AC-Food.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="435.0" layoutX="44.0" layoutY="393.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/nonAC-Food.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="435.0" layoutX="588.0" layoutY="107.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/AC.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="416.0" layoutX="598.0" layoutY="402.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/non%20AC.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

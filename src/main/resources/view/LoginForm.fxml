@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LoginFormContext" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelmanagementsystem.controller.LoginFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="503.0" layoutX="64.0" layoutY="130.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" width="395.0" />
+      <ImageView fitHeight="700.0" fitWidth="510.0" layoutX="-5.0" opacity="0.76" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/loginback.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="144.0" layoutX="193.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/personal-security.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="txtUserName" layoutX="94.0" layoutY="363.0" prefHeight="25.0" prefWidth="336.0" promptText="User Name" style="-fx-background-color: white;" unFocusColor="BLACK" />
+      <JFXPasswordField fx:id="txtPassword" layoutX="96.0" layoutY="426.0" prefHeight="25.0" prefWidth="336.0" promptText="Password" style="-fx-background-color: white;" unFocusColor="BLACK" />
+      <JFXButton fx:id="btnLogin" layoutX="128.0" layoutY="490.0" onAction="#btnLoginOnAction" prefHeight="38.0" prefWidth="275.0" style="-fx-background-color: blue;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Hyperlink alignment="CENTER" layoutX="169.0" layoutY="550.0" prefHeight="23.0" prefWidth="192.0" text="Forgot Password" />
+      <Label alignment="CENTER" layoutX="11.0" layoutY="30.0" prefHeight="93.0" prefWidth="510.0" text="Welcome to You'r  Hostel" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
